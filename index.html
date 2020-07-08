@@ -3,126 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-SCHOOL</title>
+    <title>E-School</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="ht.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+
 </head>
 <body>
-<section id="nav-ver">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#logo"><img src="e-school/ICON/Logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#book">Book <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#course">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#other">Others</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#blogs">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sine-in">
-                        <button>Sine in</button>
-                    </a>
-                  </li>
-              </ul>
-            </div>   
-          </nav>       
-    </div>
-
-
-</section>
-    <section id="banner" >
-    <div class="container" >
-        <div class="row">
-            <div class="col-md-6" >
-                <p> <span style="color: red;" > Are you ready to Learn?</span> </p>
-                <h1>Learn with fun <br> on <span style="color: #21B573;" >any schedule</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, rem!</p>
-                <button class="another-btn">Get Started</button>
-            </div>
-            <div class="col-md-6 text-center">
-                    <img src="e-school/Photos/Illustration.png" class="img-fluid">
-
+    <div class="navigator">
+        <div id="margin" class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <img class="img-fluid" src="e-school/ICON/Logo.png" width="197px" height="59px" alt="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#books">Books <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-dark" href="#on-course">Course</a>
+                    <a class="nav-item nav-link text-dark" href="#others">Others</a>
+                    <a class="nav-item nav-link text-dark" href="#blog">Blog</a>
+                    <a class="nav-item nav-link" id="sign" href="#sign-in">Sign in</a>
+                  </div>
                 </div>
+              </nav>
         </div>
-    </div> 
-    </section>
-
-                        <!-----Courses section------->
-
-    <section class="courses">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-3 book">
-                    <img src="e-school/ICON/book.png" alt="">
-                        <h5>1500+ Topic</h5>
-                        <p>Learn anythings</p>
-                </div>
-                <div class="col-md-3 students">
-                    <img src="e-school/ICON/Students.png" alt="">
-                        <h5>1800+ Students</h5>
-                        <p>Learn anythings</p>
-                </div>
-                <div class="col-md-3 test">
-                    <img src="e-school/ICON/Test.png" alt="">
-                        <h5>9k+ Test Token</h5>
-                        <p>Learn anythings</p>
-                </div>
-                <div class="col-md-3 student">
-                    <img src="e-school/ICON/Student.png" alt="">
-                        <h5>2000+ Student</h5>
-                        <p>Learn anythings</p>
-                </div>
+    </div>
+        <!------------------book-section--------------->
+    <div id="book">
+        <div class="container row align-items-center">
+            <div class="col-md-6 text-center p-4">
+                <h6 class="highlight">Are you ready to Learn?</h6>
+                <h1 class="learn">Learn With fun <br>on <span>any schedule</span></h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Varius blandit facilisis quam netus.</p>
+                <button class="start">Get Started</button>
+            </div>
+            <div class="col-md-6 m-10 p-4">
+                <img class="img-fluid" src="e-school/Photos/Illustration.png" alt="">
             </div>
         </div>
-</section>
-                             <!----online Courses---->
-
-
- <div class="card-deck">
-    <div class="card">
-      <img src="e-school/Photos/Morder psyc.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Modern Psychology</h5>
-        <p class="card-text">Designation</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
     </div>
-    <div class="card">
-      <img src="e-school/Photos/Morder pychons.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Modern Psychology</h5>
-        <p class="card-text">Designation</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
+    <div class="container books margin" >
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-3 book">
+                <img class="img-fluid" src="e-school/ICON/book.png" alt="">
+                <h3>1800+ Students</h3>
+                <p>Learn Anythings</p>
+            </div>
+            <div class="col-md-3 book">
+                <img class="img-fluid" src="e-school/ICON/Student.png" alt="">
+                <h3>1800+ Students</h3>
+                <p>Learn Anythings</p>
+            </div>
+            <div class="col-md-3 book">
+                <img class="img-fluid" src="e-school/ICON/Test.png" alt="">
+                <h3>9K+ Test Token</h3>
+                <p>Learn Anythings</p>
+            </div>
+            <div class="col-md-3 book">
+                <img class="img-fluid" src="e-school/ICON/Students.png" alt="">
+                <h3>2000+ Students</h3>
+                <p>Learn Anythings</p>
+            </div>
+        </div>
+    </div>     
+                  <!------------online section------------>
+    <div class="container align-items-center margin" id="on-course">
+        <h1 class="text-center mb-3 pb-4">Online Course</h1>
+        <div class="card-deck">
+            <div class="card p-3">
+              <img src="e-school/Photos/Morder psyc.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="course">Buy Course</button>
+              </div>
+              <div class="card-footer d-flex align-items-center">
+                <div class="d-flex justify-content-start">
+                    <img class="img-fluid" src="e-school/ICON/calendar.png" alt="">
+                    <small><p class="ml-1 mt-1">Start 20 April, 2021</p></small>
+                </div>
+                <div class="d-flex justify-content-end ml-4">
+                    <img class="img-fluid" src="e-school/ICON/people.png" alt="">
+                    <small><p class="ml-1 mt-1">60 Seats</p></small>
+                </div>
+              </div>
+            </div>
+            <div class="card p-3">
+              <img src="e-school/Photos/Morder pychons.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="course">Buy Course</button>
+              </div>
+              <div class="card-footer d-flex align-items-center">
+                <div class="d-flex justify-content-start">
+                    <img class="img-fluid" src="e-school/ICON/calendar.png" alt="">
+                    <small><p class="ml-1 mt-1">Start 20 April, 2021</p></small>
+                </div>
+                <div class="d-flex justify-content-end ml-4">
+                    <img class="img-fluid" src="e-school/ICON/people.png" alt="">
+                    <small><p class="ml-1 mt-1">60 Seats</p></small>
+                </div>
+              </div>
+            </div>
+            <div class="card p-3">
+              <img src="e-school/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="course">Buy Course</button>
+              </div>
+              <div class="card-footer d-flex align-items-center">
+                <div class="d-flex justify-content-start">
+                    <img class="img-fluid" src="e-school/ICON/calendar.png" alt="">
+                    <small><p class="ml-1 mt-1">Start 20 April, 2021</p></small>
+                </div>
+                <div class="d-flex justify-content-end ml-4">
+                    <img class="img-fluid" src="e-school/ICON/people.png" alt="">
+                    <small><p class="ml-1 mt-1">60 Seats</p></small>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
-    <div class="card">
-      <img src="e-school/Photos/Morder pyschology.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Modern Psychology</h5>
-        <p class="card-text">Designation</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
+              <!--------testimonial section-------->
+    <div class="container third margin " id="others">
+        <h1 class="text-center">Testimonial</h1>
+        <div class="row align-items-center mb-4 mt-4 p-4">
+            <div class="col-4 d-flex justify-content-end pl-1">
+                <img src="e-school/Photos/Man.png" alt="">
+            </div>
+            <div class="col-8 d-flex justify-content-start p-4">
+                <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+        </div>
     </div>
-  </div>                    
+    <!---------Sign in section----------->
+        <section class="row justify-content-center" id="sign-in">
+          <section class="col-md-12 col-md-3">
+              <form class="form-container">
+                       <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                              <button type="submit" class="btn btn-primary btn ">Submit</button>
+                          </form>
+            </section>
+         </section>
+      </section>
+                
+                
+                  <!---------------blog section---------->
 
+  
+    <div id="blog">
+        <div class="container d-flex align-items-center justify-content-center" style="padding: 50px;">
+            <div class="row ">
+                <div class="col-md-4 p-4">
+                    <p>Millions of people of all ages and from around the world are improving their lives with us</p>
+                </div>
+                <div class="col-md-8 p-4">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <ul>
+                                <li class="course">Course</li>
+                                <li><a href="">Graphic Design</a></li>
+                                <li><a href="">Web Design</a></li>
+                                <li><a href="">Business</a></li>
+                                <li><a href="">Marketing</a></li>
+                                <li><a href="">Engineering</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4"><ul>
+                            <li class="course">Terms</li>
+                            <li><a href="">Graphic Design</a></li>
+                            <li><a href="">Web Design</a></li>
+                            <li><a href="">Business</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Engineering</a></li>
+                        </ul></div>
+                        <div class="col-md-4"><ul>
+                            <li class="course">Useful Link</li>
+                            <li><a href="">Graphic Design</a></li>
+                            <li><a href="">Web Design</a></li>
+                            <li><a href="">Business</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Engineering</a></li>
+                        </ul></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="text-center text-secondary"> <small>Copyright © 2020 Programming-hero.com</small> </p>
+        </div>
+    </div>
 
 
 
